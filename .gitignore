@@ -1,8 +1,12 @@
 .vscode
 src/SPMBros/build
+src/SPMBros/build/*
 src/mario_ai/build
+src/mario_ai/build/*
 src/mario_ai/saves
+src/mario_ai/saves/*
 src/mario_ai/tests
+src/mario_ai/tests/*
 poetry.lock
 .DS_Store
 __pycache__
