@@ -49,12 +49,13 @@ Follow these steps to set up the project on your local machine.
    ```
 
 2. **Install Python dependencies**:
-Recommended : Disable Keyring
-```sh
-poetry config keyring.enabled false 
-```
 
+   Recommended : Disable Keyring
+   ```sh
+   poetry config keyring.enabled false 
+   ```
 
+   Install:
    ```sh
    poetry install
    ```
