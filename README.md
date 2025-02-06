@@ -49,14 +49,15 @@ Follow these steps to set up the project on your local machine.
    ```
 
 2. **Install Python dependencies**:
-   ```sh
-   poetry install
-   ```
-
-If install seems broken, disable keyring:
+Recommended : Disable Keyring
 ```sh
 poetry config keyring.enabled false 
 ```
+
+
+   ```sh
+   poetry install
+   ```
 
 3. **Compile the C++ project**:
    ```sh
@@ -89,6 +90,8 @@ Your best Mario will play with:
 ```sh
 poetry run python3 main.py
 ```
+
+(A nn.json file is already available in the project)
 
 ## Project Structure
 
