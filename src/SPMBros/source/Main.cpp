@@ -347,7 +347,7 @@ static void mainLoop()
             progStartTime = now;
         }
         frame++;
-        SDL_Delay(10);
+        SDL_Delay(0);
     }
 }
 
